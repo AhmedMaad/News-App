@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414549866835",
+    "project_id": "news-app-rcc031",
+    "storage_bucket": "news-app-rcc031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414549866835:android:e770ffd15afe960bbec9a6",
+        "android_client_info": {
+          "package_name": "com.maad.newsadminmaad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmYgGONSEsT2w1E4rzUBe5JmfD_AxdIK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414549866835:android:71ced75c5f3f8156bec9a6",
+        "android_client_info": {
+          "package_name": "com.maad.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmYgGONSEsT2w1E4rzUBe5JmfD_AxdIK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
