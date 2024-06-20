@@ -33,19 +33,14 @@ class DetailsActivity : AppCompatActivity() {
             insets
         }
 
-        val resultLauncher = registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
-        ) {
-            if (it.resultCode == RESULT_OK) {
-                picUri = it.data?.data
+        val resultLauncher =
+            registerForActivityResult(ActivityResultContracts.GetContent()) {
+                picUri = it
                 binding.imageBtn.setImageURI(picUri)
             }
-        }
 
         binding.imageBtn.setOnClickListener {
-            val i = Intent(Intent.ACTION_GET_CONTENT)
-            i.type = "image/*"
-            resultLauncher.launch(i)
+            resultLauncher.launch("image/*")
         }
 
         binding.motionLayout.setTransitionListener(object : MotionLayout.TransitionListener {
